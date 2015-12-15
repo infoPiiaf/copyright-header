@@ -90,6 +90,13 @@ haml:
     close:  '-#\n'
     prefix: '-# '
 
+erb:
+  ext: ['.erb',]
+  comment:
+    open:   '<%\n'
+    close:  '%>\n'
+    prefix: '# '
+
 coffee:
   ext: ['.coffee']
   comment:
@@ -139,7 +146,7 @@ yaml:
     open:   '#\n'
     close:  '#\n'
     prefix: '# '
- 
+
 action_script:
   ext: ['.as']
   comment:
